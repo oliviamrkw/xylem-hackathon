@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.buttonStyle {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#info-container {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;   
+    width: 300px;
+    max-height: 85vh;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+
+.info-window {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.marker-label {
+    text-shadow: -1px -1px 0 black,  
+                 1px -1px 0 black,  
+                 -1px 1px 0 black,  
+                 1px 1px 0 black; 
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.progress-bar-availability {
+    height: 100%;
+    width: 0%;
+    background-color: #45add6;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+.progress-bar-quality {
+    height: 100%;
+    width: 0%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
