@@ -47,7 +47,6 @@ body, html {
     z-index: 1000;
 }
 
-
 .info-window {
     background: rgba(255, 255, 255, 0.9);
     padding: 15px;
@@ -79,6 +78,13 @@ body, html {
     background-color: #45add6;
     border-radius: 5px;
     transition: width 0.5s ease;
+    text-align: center;
+}
+
+.progress-text {
+    color: black;
+    font-size: 16px; 
+    font-weight: bold; 
 }
 
 .progress-bar-quality {
